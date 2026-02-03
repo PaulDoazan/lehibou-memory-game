@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+</head>
+<body>
+    <script type="module">
+        import init, { greet } from '../pkg/lehibou_memory_game.js';
+        
+        async function run() {
+            await init();
+            console.log(greet("le monde"));
+        }
+        
+        run();
+    </script>
+</body>
+</html>
